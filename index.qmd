@@ -1,0 +1,146 @@
+---
+# title: "Een ondergrens in de berekening van stikstofdepositiebijdragen voor vergunningverlening"
+# author: "Ernst Meijer (TNO) en Emiel van Loon (UvA)"
+# date: "27 augustus 2024"
+format:
+  revealjs:
+    logo: tno_uva_compact.png
+    theme: [default, custom.scss]
+#    slide-number: true
+#    footer: <https://edu.nl/r9dj3>
+    smaller: true
+    footnotes-hover: true
+    chalkboard: true
+---
+
+## Een ondergrens in de berekening van stikstofdepositiebijdragen voor vergunningverlening
+</br>
+<h4> Onderzoek naar een wetenschappelijk onderbouwde ondergrens </h3>
+</br>
+
+:::: {.columns}
+::: {.column width="30%"}
+[Ernst Meijer](https://www.tno.nl/en/about-tno/our-people/ernst-meijer/) ([TNO](https://www.tno.nl)) </br>
+[Emiel van Loon](https://www.uva.nl/profiel/e.e.vanloon) ([UvA](https://www.uva.nl))
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="60%"}
+![](qr_link.png){width=150 fig-align="right"}
+:::
+::::
+
+27 augustus 2024
+
+[ [CC0-1.0](https://github.com/emielvanloon/stikstof_ondergrens/) ]{.footer}
+
+## Opdracht
+
+Wetenschappelijk [beargumenteren]{style="color:#1899d5;"} of er een ondergrens is waaronder de stikstofdepositie van een [individuele bron]{style="color:#1899d5;"} op stikstofgevoelige natuur niet meer met [voldoende zekerheid]{style="color:#1899d5;"} kan worden [toegerekend]{style="color:#1899d5;"} aan de betreffende bron.
+
+-   Is er een ondergrens?
+
+-   Hoe groot (ongeveer)?
+
+## Aanleiding opdracht
+
+<br/><br/>
+adviescollege [“Meten en berekenen stikstof” (commissie Hordijk) ](https://www.rijksoverheid.nl/documenten/rapporten/2020/06/15/meer-meten-robuuster-rekenen) 
+
+  - [schijnzekerheid in huidige systematiek]{style="color:#1899d5;"}
+
+
+<br/>
+onderzoeken door RIVM^[Roest G. et al. (2021) Verkenning afstandsgrens project-specifieke depositieberekeningen, RIVM-briefrapport 2021-0115. http://dx.doi.org/10.21945/RIVM-2021-0115] en TNO^[Duyzer J., Erbrink H., Wilmot M. (2021) Afbakening in de modellering van depositiebijdragen van individuele projectbijdragen (Fase 1), TNO-notitie. 
+<br/> TNO (2022) Afbakening in de modellering van depositiebijdragen van individuele projectbijdragen (Fase 2), TNO-notitie.]
+
+  - [afbakening in de berekeningen gevonden: rekenafstand van maximaal 25 km vanaf de bron]{style="color:#1899d5;"}
+
+
+## Scope
+
+- hoofdvraag (kunnen toerekenen van een depositie op een receptor aan een bron met voldoende zekerheid) is een vraag naar de [validiteit en betrouwbaarheid van modellering]{style="color:#1899d5;"}
+
+- modelgebruik in het kader van [toestemmingsverlening]{style="color:#1899d5;"}
+
+- beperking tot wetenschappelijke disciplines waarop dispersie- en depositie modellering is gebaseerd, d.w.z. [atmosfeerwetenschap]{style="color:#1899d5;"} (geen ecologie)
+
+
+## Scope
+
+- [AERIUS Calculator/Connect]{style="color:#1899d5;"} wettelijk voorgeschreven voor toestemmingsverlening
+- onderliggende modellen:
+  - [SRM2]{style="color:#1899d5;"} (Standaardrekenmethode 2) model voor wegverkeer (tot 5 km)
+  - [OPS]{style="color:#1899d5;"} (Operationeel Prioritaire Stoffen) model voor overige bronnen (tot 25 km)
+
+Bovenstaande modellen volgen [huidige wetenschappelijke standaard]{style="color:#1899d5;"}. Als een model niet blijkt te voldoen wordt het verbeterd, dat is dus geen reden om daarop een ondergrens te baseren.
+
+## Werkwijze
+
+- Uitgaande van bestaande kennis
+
+- Literatuuronderzoek
+
+- Wetenschappelijk draagvlak via open discussie en advies door
+  - wetenschappelijke [klankbordgroep]{style="color:#1899d5;"} met 13 leden (3 keer bijeen)
+  - [experts uit het buitenland]{style="color:#1899d5;"} (VK, Duitsland en Vlaanderen)
+
+## Algemeen beoordelingskader
+
+![](beoordelingskader.png)
+
+
+## Leidt beoordelingskader tot ondergrens? 
+
+::: {.fragment}
+![](theoretisch.png)
+:::
+
+::: {.fragment}
+![](validatie.svg)
+:::
+
+::: {.fragment}
+![](onzekerheid.png)
+:::
+
+
+## Conclusies
+
+- er is (louter vanuit atmosfeerwetenschappen) geen onderbouwing gevonden voor een specifieke rekenkundige ondergrens
+
+- een ondergrens is wel aannemelijk (want: sterk vereenvoudigde processen modelparameters &#8594; inschatten op basis van metingen &#8594; beperking meetinstrumentarium/natuurlijke variatie)
+
+- met name het depositieproces kent beperkingen die niet van de grootte van de bijdrage afhangen maar van de mate waarin lokale omstandigheden met metingen in kaart zijn gebracht
+
+- ondergrens is mogelijk empirisch vast te stellen op basis van vergelijking tussen model en moderne metingen in veldexperimenten (nu niet mogelijk i.v.m. gebrek geschikte experimentele gegevens)
+
+
+## Aanbevelingen voor vervolg
+
+::: {.fragment}
+| 1. Verbeteren van kennis (en vervolgens betere modellering) van met name 
+|     het depositieproces.
+:::
+
+::: {.fragment}
+|
+| 2. Andere werkwijzen dan huidig AERIUS, waarbij ook een bredere set criteria 
+|     (met name ecologisch en juridisch) worden gehanteerd.
+|    - Rapporteren deposities op lagere resolutie dan huidige 1 ha.
+|    - Vaststellen van minimale projectduur bij vergunningverlening i.v.m. 
+|        gebruik gemiddelde meteorologische omstandigheden in model.
+|    - Projecten geaccumuleerd beoordelen (dus niet naar individuele 
+|        bronbijdragen kijken).
+:::
+
+::: {.fragment}
+|
+| 3. Gericht uitvoeren van veldexperimenten t.b.v. verkrijgen van voldoende 
+|    meetgegevens voor een statistische onderbouwing van een ondergrens. 
+|    - Duurt lang (> 5 jaar) en is kostbaar.
+|    - Levert ook andere kennis op voor modelverbetering en beleidsondersteuning.
+:::

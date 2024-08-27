@@ -90,13 +90,13 @@ Bovenstaande modellen volgen [huidige wetenschappelijke standaard]{style="color:
 
 ## Algemeen beoordelingskader
 
-![](beoordelingskader.png)
+![](beoordelingskader.svg)
 
 
 ## Leidt beoordelingskader tot ondergrens? 
 
 ::: {.fragment}
-![](theoretisch.png)
+![](theoretisch.svg)
 :::
 
 ::: {.fragment}
@@ -104,7 +104,7 @@ Bovenstaande modellen volgen [huidige wetenschappelijke standaard]{style="color:
 :::
 
 ::: {.fragment}
-![](onzekerheid.png)
+![](onzekerheid.svg)
 :::
 
 
